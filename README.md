@@ -1,8 +1,6 @@
 # css-screen
 
-Thank you for your interest in Tripwire™!  We've preparred some exercises &
-questions to work through together.  Please follow the below instructions to get
-started.
+Greetings!  We've preparred some exercises & questions to work through together.  Please follow the below instructions to get started.
 
 ## usage
 
