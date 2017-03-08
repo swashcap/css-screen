@@ -2,15 +2,29 @@
 
 <head>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     html,
     body {
       margin: 0;
       padding: 0;
     }
 
-    #a { background: blue; }
-    #b { background: darkgreen; }
+    #a {
+      background: blue;
+      color: white;
+    }
+    #b {
+      background: darkgreen;
+      color: white;
+    }
     #c { background: yellow; }
+
+    body > div {
+      padding: 1em;
+      text-align: center;
+    }
 
     @media (min-width: 22em) {
       body {
