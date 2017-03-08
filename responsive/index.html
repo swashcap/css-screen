@@ -11,6 +11,28 @@
     #a { background: blue; }
     #b { background: darkgreen; }
     #c { background: yellow; }
+
+    @media (min-width: 22em) {
+      body {
+        display: flex;
+        flex-direction: grid;
+        flex-wrap: wrap;
+      }
+      .sm-12 {
+        width: 100%;
+      }
+      .sm-6 {
+        width: 50%;
+      }
+    }
+    @media (min-width: 36em) {
+      .md-6 {
+        width: 50%;
+      }
+      .md-3 {
+        width: 25%;
+      }
+    }
   </style>
 </head>
 
